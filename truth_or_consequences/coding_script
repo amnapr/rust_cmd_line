@@ -1127,4 +1127,272 @@ Untracked files:
 	[31m../target/debug/.fingerprint/hello-da168459eedc94cf/[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hggit commit -a[?2004l
+hint: Waiting for your editor to close the file... [?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"~/rust_cmd_line/.git/COMMIT_EDITMSG" 21L, 843B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H# Please enter the commit message for your changes. Lines starting[2;67H[K[3;1H# with '#' will be ignored, and an empty message aborts the commit.[3;68H[K[4;1H#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#[7Cmodified:   ../../coding_script
+#[7Cmodified:   ../target/debug/deps/cli-d5118cdef2760584
+#[7Cmodified:   ../target/debug/deps/cli-d5118cdef2760584.163e5xe40ul30mj2.rr[12;1Hcgu.o
+#[7Cmodified:   ../target/debug/deps/cli-d5118cdef2760584.1hfrjhn3h3hxheu4.rr[14;1Hcgu.o
+#[7Cmodified:   ../target/debug/deps/cli-d5118cdef2760584.1k8mjwa8hrl8mw02.rr[16;1Hcgu.o
+#[7Cmodified:   ../target/debug/deps/cli-d5118cdef2760584.26ysjbgzvywwcies.rr[18;1Hcgu.o
+#[7Cmodified:   ../target/debug/deps/cli-d5118cdef2760584.5cdmwha1i23l2x46.rr[20;1Hcgu.o
+#[7Cmodified:   cli.rs
+#
+# Untracked files:[1;1H[?25h
+[1;1H[?25l[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h[?25lR[?25h[?25le[?25h[?25lm[?25h[?25lo[?25h[?25lv[?25h[?25li[?25h[?25ln[?25h[?25l[1;7H[K[1;7H[?25h[?25l[1;6H[K[1;6H[?25h[?25l[1;5H[K[1;5H[?25h[?25l[1;4H[K[1;4H[?25h[?25l[1;3H[K[1;3H[?25h[?25l[1;2H[K[1;2H[?25h[?25l[1;1H[K[1;1H[?25h[?25lC[?25h[?25lh[?25h[?25le[?25h[?25lc[?25h[?25lk[?25h[?25l [?25h[?25l[?25h[?25li[?25h[?25ln[?25h[?25l [?25h[?25l[?25h[?25lg[?25h[?25l [?25h[?25lf[?25h[?25lo[?25h[?25lr[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lp[?25h[?25lr[?25h[?25lo[?25h[?25lj[?25h[?25le[?25h[?25lc[?25h[?25lt[?25h[?25l [?25h[?25ln[?25h[?25li[?25h[?25ln[?25h[?25l[1;28H[K[1;28H[?25h[?25l[1;27H[K[1;27H[?25h[?25l[1;26H[K[1;26H[?25h[?25lb[?25h[?25li[?25h[?25la[?25h[?25ln[?25h[?25lr[?25h[?25l[1;30H[K[1;30H[?25h[?25l[1;29H[K[1;29H[?25h[?25l[1;28H[K[1;28H[?25h[?25ln[?25h[?25la[?25h[?25lt[?25h[?25ly[?25h[?25l[1;31H[K[1;31H[?25h[?25l[1;30H[K[1;30H[?25h[?25lr[?25h[?25ly[?25h[?25l,[?25h[?25l [?25h[?25lw[?25h[?25lh[?25h[?25li[?25h[?25lc[?25h[?25lh[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25ln[?25h[?25lo[?25h[?25lt[?25h[?25l [?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25ls[?25h[?25lt[?25h[?25la[?25h[?25ln[?25h[?25ld[?25h[?25la[?25h[?25lr[?25h[?25ld[?25h[?25l [?25h[?25lp[?25h[?25la[?25h[?25lt[?25h[?25lh[?25h[24;1H[K[1;66H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m".git/COMMIT_EDITMSG" 21L, 909B written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[K[main b8a0f57] Checking for the project binary, which is not on the standard path
+ 8 files changed, 394 insertions(+), 2 deletions(-)
+ rewrite truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.163e5xe40ul30mj2.rcgu.o (79%)
+ rewrite truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.1hfrjhn3h3hxheu4.rcgu.o (100%)
+ rewrite truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.1k8mjwa8hrl8mw02.rcgu.o (95%)
+ rewrite truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.26ysjbgzvywwcies.rcgu.o (97%)
+ rewrite truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.5cdmwha1i23l2x46.rcgu.o (97%)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hgit commit -a[9Dstatus         push[?2004l
+Enumerating objects: 31, done.
+Counting objects:   3% (1/31)Counting objects:   6% (2/31)Counting objects:   9% (3/31)Counting objects:  12% (4/31)Counting objects:  16% (5/31)Counting objects:  19% (6/31)Counting objects:  22% (7/31)Counting objects:  25% (8/31)Counting objects:  29% (9/31)Counting objects:  32% (10/31)Counting objects:  35% (11/31)Counting objects:  38% (12/31)Counting objects:  41% (13/31)Counting objects:  45% (14/31)Counting objects:  48% (15/31)Counting objects:  51% (16/31)Counting objects:  54% (17/31)Counting objects:  58% (18/31)Counting objects:  61% (19/31)Counting objects:  64% (20/31)Counting objects:  67% (21/31)Counting objects:  70% (22/31)Counting objects:  74% (23/31)Counting objects:  77% (24/31)Counting objects:  80% (25/31)Counting objects:  83% (26/31)Counting objects:  87% (27/31)Counting objects:  90% (28/31)Counting objects:  93% (29/31)Counting objects:  96% (30/31)Counting objects: 100% (31/31)Counting objects: 100% (31/31), done.
+Delta compression using up to 8 threads
+Compressing objects:   6% (1/16)Compressing objects:  12% (2/16)Compressing objects:  18% (3/16)Compressing objects:  25% (4/16)Compressing objects:  31% (5/16)Compressing objects:  37% (6/16)Compressing objects:  43% (7/16)Compressing objects:  50% (8/16)Compressing objects:  56% (9/16)Compressing objects:  62% (10/16)Compressing objects:  68% (11/16)Compressing objects:  75% (12/16)Compressing objects:  81% (13/16)Compressing objects:  87% (14/16)Compressing objects:  93% (15/16)Compressing objects: 100% (16/16)Compressing objects: 100% (16/16), done.
+Writing objects:   6% (1/16)Writing objects:  12% (2/16)Writing objects:  18% (3/16)Writing objects:  25% (4/16)Writing objects:  31% (5/16)Writing objects:  37% (6/16)Writing objects:  43% (7/16)Writing objects:  50% (8/16)Writing objects:  56% (9/16)Writing objects:  62% (10/16)Writing objects:  68% (11/16)Writing objects:  75% (12/16)Writing objects:  81% (13/16)Writing objects:  87% (14/16)Writing objects:  93% (15/16)Writing objects: 100% (16/16)Writing objects: 100% (16/16), 130.20 KiB | 4.65 MiB/s, done.
+Total 16 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/8)[Kremote: Resolving deltas:  12% (1/8)[Kremote: Resolving deltas:  25% (2/8)[Kremote: Resolving deltas:  37% (3/8)[Kremote: Resolving deltas:  50% (4/8)[Kremote: Resolving deltas:  62% (5/8)[Kremote: Resolving deltas:  75% (6/8)[Kremote: Resolving deltas:  87% (7/8)[Kremote: Resolving deltas: 100% (8/8)[Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
+To https://github.com/amnapr/rust_cmd_line.git
+   3fc5abd..b8a0f57  main -> main
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004heecho $PATH[?2004l
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/amal.prasad/.cargo/bin
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hecho $PATH|ts : '\n"[?2004l
+[0m[27m[24m[Jpipe quote> [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hecho $PATH|ts : '\n" '[?2004l
+zsh: command not found: ts
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hecho $PATH|ts : '\n' : '\n' [8Dr : '\n'[?2004l
+/usr/local/bin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
+/Users/amal.prasad/.cargo/bin
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hlls[?2004l
+Cargo.lock	Cargo.toml	src		target		tests
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hvvi Cargo.toml[1m [0m[0m [?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"Cargo.toml" 8L, 174B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[106m[[mpackage[106m][m
+name = "hello"[2;15H[K[3;1Hversion = "0.1.0"[3;18H[K[4;1Hedition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/referenn[7;1Hce/manifest.html
+
+[dependencies]
+[94m~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[[7C]
+[?25h
+
+
+
+
+
+[?25l
+[106m[[12C][?25h[?25l[m[24;1H[1m-- INSERT --[m[24;14H[K[9;1H[[12C][10;1H[K[10;1H[?25h[?25l[11;1H[K[11;1H[?25h[?25l[[?25h[?25ld[?25h[?25le[?25h[?25lv[?25h[?25l-[?25h[?25ld[?25h[?25le[?25h[?25lp[?25h[?25le[?25h[?25ln[?25h[?25ld[?25h[?25le[?25h[?25ln[?25h[?25lc[?25h[?25li[?25h[?25le[?25h[?25ls[?25h[?25l[106m[[16C][?25h[?25l[m[[16C][12;1H[K[12;1H[?25h[?25la[?25h[?25ls[?25h[?25ls[?25h[?25le[?25h[?25lr[?25h[?25lt[?25h[?25l_[?25h[?25lc[?25h[?25lm[?25h[?25le[?25h[?25l[12;10H[K[12;10H[?25h[?25ld[?25h[?25l [?25h[?25l=[?25h[?25l [?25h[?25l"[?25h[?25l1[?25h[?25l"[?25h[24;1H[K[12;16H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"Cargo.toml" 11L, 211B written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hccd -[?2004l
+~/rust_cmd_line/truth_or_consequences/hello/tests
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hvvi v  lls[?2004l
+cli-simple.rs	cli.rs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hmmv cli
+[Jcli-simple.rs  cli.rs[A[0m[27m[24m[31Cmv cli[K.rs[1m [0m[0m cli-standard_path.rs[?2004l
+[J[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hvvi cli.rs[?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"cli.rs" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h[?25lu[?25h[?25ls[?25h[?25le[?25h[?25l [?25h[?25la[?25h[?25ld[?25h[?25l[1;6H[K[1;6H[?25h[?25ls[?25h[?25ls[?25h[?25le[?25h[?25lr[?25h[?25lt[?25h[?25l_[?25h[?25le[?25h[?25lm[?25h[?25ld[?25h[?25l:[?25h[?25l:[?25h[?25lC[?25h[?25lo[?25h[?25lm[?25h[?25lm[?25h[?25ln[?25h[?25la[?25h[?25ld[?25h[?25l[1;23H[K[1;23H[?25h[?25l[1;22H[K[1;22H[?25h[?25l[1;21H[K[1;21H[?25h[?25la[?25h[?25ln[?25h[?25ld[?25h[?25l;[?25h[?25l[2;1H[K[2;1H[?25h[?25l[3;1H[K[3;1H[?25h[?25l#[?25h[?25l[[?25h[?25lt[?25h[?25le[?25h[?25ls[?25h[?25lt[?25h[?25l#[106m[[mtest[106m][?25h[?25l[m#[test][4;1H[K[4;1H[?25h[?25lf[?25h[?25ln[?25h[?25l [?25h[?25lr[?25h[?25lu[?25h[?25ln[?25h[?25ls[?25h[?25l([?25h[?25l[106m()[?25h[?25l[m() [?25h[?25l{[?25h[?25l[5;1H[K[5;1H[?25h[?25l[8C[?25h[?25l[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25ll[?25h[?25le[?25h[?25lt[?25h[?25l [?25h[?25lm[?25h[?25lu[?25h[?25lt[?25h[?25l [?25h[?25lc[?25h[?25lm[?25h[?25ld[?25h[?25l [?25h[?25l=[?25h[?25l [?25h[?25lC[?25h[?25lo[?25h[?25lm[?25h[?25lm[?25h[?25la[?25h[?25ln[?25h[?25ld[?25h[?25l:[?25h[?25l:[?25h[?25lC[?25h[?25la[?25h[?25lr[?25h[?25lo[?25h[?25l[5;31H[K[5;31H[?25h[?25l[5;30H[K[5;30H[?25h[?25l[5;29H[K[5;29H[?25h[?25l[5;28H[K[5;28H[?25h[?25lc[?25h[?25la[?25h[?25lr[?25h[?25lg[?25h[?25lo[?25h[?25l_[?25h[?25lb[?25h[?25li[?25h[?25ln[?25h[?25l([?25h[?25lh[?25h[?25le[?25h[?25ll[?25h[?25ll[?25h[?25l[5;41H[K[5;41H[?25h[?25l[5;40H[K[5;40H[?25h[?25l[5;39H[K[5;39H[?25h[?25l[5;38H[K[5;38H[?25h[?25l"[?25h[?25lh[?25h[?25le[?25h[?25ll[?25h[?25ll[?25h[?25lo[?25h[?25l"[?25h[?25l[5;37H[106m([7C)[?25h[?25l[m[5;37H([7C).[?25h[?25lu[?25h[?25ln[?25h[?25lw[?25h[?25la[?25h[?25lr[?25h[?25lp[?25h[?25l[5;52H[K[5;52H[?25h[?25l[5;51H[K[5;51H[?25h[?25l[5;50H[K[5;50H[?25h[?25lr[?25h[?25la[?25h[?25lp[?25h[?25l([?25h[?25l[106m()[?25h[?25l[m();[?25h[?25l[6;1H[K[6;1H[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l[?25h[?25lc[?25h[?25lm[?25h[?25ld[?25h[?25l.[?25h[?25la[?25h[?25ls[?25h[?25ls[?25h[?25le[?25h[?25lr[?25h[?25lt[?25h[?25l([?25h[?25l[106m()[?25h[?25l[m().[?25h[?25ls[?25h[?25lu[?25h[?25lc[?25h[?25lc[?25h[?25le[?25h[?25ls[?25h[?25ls[?25h[?25l([?25h[?25l[106m()[?25h[?25l[m();[?25h[?25l[7;1H[K[7;1H[?25h[?25l[4;11H[106m{
+
+
+}[?25h[m[24;1H[K[7;1H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"cli.rs" [New] 7L, 132B written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hmmofd   e re cli-s
+[Jcli-simple.rs         cli-standard_path.rs[A[0m[27m[24m[31Cmore cli-s[Ktandard_path.rs[1m [0m[0m [?2004l
+[J[?1h=use std::process::Command;
+
+#[test]
+fn runs() {
+    let mut cmd = Command::new("hello");
+    let res = cmd.output();
+    assert!(res.is_ok());
+}
+[7mcli-standard_path.rs (END)[27m[K[K[?1l>[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hmmore cli.rs[1m [0m[0m [?2004l
+[?1h=use assert_emd::Command;
+
+#[test]
+fn runs() {
+    let mut cmd = Command::cargo_bin("hello").unwrap();
+    cmd.assert().success();
+}
+[7mcli.rs (END)[27m[K[K[?1l>[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hccargo test[?2004l
+[0m[0m[1m[32m    Updating[0m crates.io index
+[0m[0m[1m[36m       Fetch[0m [                         ]   0.00%, 10.67KiB/s                  [0m[0m[1m[36m       Fetch[0m [====>                    ]  23.61%, 10.67KiB/s                  [0m[0m[1m[36m       Fetch[0m [=======================> ]  96.63%, (298/312) resolving deltas  [K[0m[0m[1m[36m Downloading[0m 1 crate                                                          [K[0m[0m[1m[32m  Downloaded[0m assert_cmd v1.0.8
+[0m[0m[1m[36m Downloading[0m 0 crates                                                         [K[0m[0m[1m[32m  Downloaded[0m 1 crate (27.8 KB) in 0.76s
+[0m[0m[1m[32m   Compiling[0m libc v0.2.107
+[0m[0m[1m[36m    Building[0m [                            ] 0/26: libc(build.rs)              [K[0m[0m[1m[32m   Compiling[0m memchr v2.4.1
+[0m[0m[1m[32m   Compiling[0m predicates-core v1.0.2
+[0m[0m[1m[32m   Compiling[0m doc-comment v0.3.3
+[0m[0m[1m[32m   Compiling[0m either v1.6.1
+[0m[0m[1m[32m   Compiling[0m lazy_static v1.4.0
+[0m[0m[1m[32m   Compiling[0m difflib v0.4.0
+[0m[0m[1m[32m   Compiling[0m regex-automata v0.1.10
+[0m[0m[1m[36m    Building[0m [                            ] 0/26: either, libc(build.rs), p...[K[0m[0m[1m[32m   Compiling[0m termtree v0.2.3
+[0m[0m[1m[36m    Building[0m [>                           ] 1/26: either, libc(build.rs), p...[K[0m[0m[1m[32m   Compiling[0m itertools v0.10.1
+[0m[0m[1m[36m    Building[0m [==>                         ] 3/26: libc(build.rs), predicate...[K[0m[0m[1m[32m   Compiling[0m predicates-tree v1.0.4
+[0m[0m[1m[36m    Building[0m [====>                       ] 5/26: predicates-tree, libc(bui...[0m[0m[1m[36m    Building[0m [=====>                      ] 6/26: predicates-tree, libc(bui...[0m[0m[1m[36m    Building[0m [======>                     ] 7/26: predicates-tree, libc(bui...[0m[0m[1m[36m    Building[0m [=======>                    ] 8/26: predicates-tree, libc(bui...[0m[0m[1m[36m    Building[0m [========>                   ] 9/26: predicates-tree, libc(bui...[0m[0m[1m[36m    Building[0m [=========>                 ] 10/26: libc(build), doc-comment(...[0m[0m[1m[36m    Building[0m [==========>                ] 11/26: libc(build), doc-comment(...[0m[0m[1m[36m    Building[0m [===========>               ] 12/26: memchr, libc(build), doc-...[K[0m[0m[1m[32m   Compiling[0m predicates v2.0.3
+[0m[0m[1m[36m    Building[0m [===========>               ] 12/26: memchr, libc(build), doc-...[K[0m[0m[1m[32m   Compiling[0m bstr v0.2.17
+[0m[0m[1m[36m    Building[0m [===========>               ] 12/26: memchr, libc(build), doc-...[0m[0m[1m[36m    Building[0m [============>              ] 13/26: memchr, libc(build), doc-...[0m[0m[1m[36m    Building[0m [=============>             ] 14/26: libc(build), doc-comment(...[0m[0m[1m[36m    Building[0m [==============>            ] 15/26: doc-comment(build), libc,...[0m[0m[1m[36m    Building[0m [===============>           ] 16/26: doc-comment(build), libc,...[0m[0m[1m[36m    Building[0m [================>          ] 17/26: doc-comment(build), libc    [K[0m[0m[1m[32m   Compiling[0m wait-timeout v0.2.0
+[0m[0m[1m[36m    Building[0m [================>          ] 17/26: doc-comment(build), wait-...[0m[0m[1m[36m    Building[0m [=================>         ] 18/26: doc-comment, wait-timeout...[0m[0m[1m[36m    Building[0m [==================>        ] 19/26: doc-comment, wait-timeout   [0m[0m[1m[36m    Building[0m [===================>       ] 20/26: wait-timeout                [K[0m[0m[1m[32m   Compiling[0m assert_cmd v1.0.8
+[0m[0m[1m[36m    Building[0m [===================>       ] 20/26: wait-timeout, assert_cmd    [0m[0m[1m[36m    Building[0m [====================>      ] 21/26: assert_cmd                  [K[0m[0m[1m[32m   Compiling[0m hello v0.1.0 (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello)
+[0m[0m[1m[36m    Building[0m [=====================>     ] 22/26: cli(test), hello(bin), cl...[K[0m[1m[38;5;9merror[E0432][0m[0m[1m: unresolved import `assert_emd`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0mtests/cli.rs:1:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse assert_emd::Command;[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[38;5;9m^^^^^^^^^^[0m[0m [0m[0m[1m[38;5;9muse of undeclared crate or module `assert_emd`[0m
+
+[0m[0m[1m[36m    Building[0m [=====================>     ] 22/26: cli(test), hello(bin), cl...[K[0m[1mFor more information about this error, try `rustc --explain E0432`.[0m
+[0m[0m[1m[36m    Building[0m [=====================>     ] 22/26: cli(test), hello(bin), cl...[K[0m[0m[1m[31merror[0m[1m:[0m could not compile `hello` due to previous error
+[0m[0m[1m[33mwarning[0m[1m:[0m build failed, waiting for other jobs to finish...
+[0m[0m[1m[36m    Building[0m [======================>    ] 23/26: hello(bin), cli-simple(te...[0m[0m[1m[36m    Building[0m [=======================>   ] 24/26: cli-simple(test), cli-sta...[0m[0m[1m[36m    Building[0m [========================>  ] 25/26: cli-standard_path(test)     [K[0m[0m[1m[31merror[0m[1m:[0m build failed
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hvvi cli.rs[1m [0m[0m [?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"cli.rs" 7L, 132B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Huse assert_emd::Command;[2;1H[K[3;1H#[test][3;8H[K[4;1Hfn runs() {
+    let mut cmd = Command::cargo_bin("hello").unwrap();
+    cmd.assert().success();
+}
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hw[?25l[24;2H[K[24;2H[?25hq![?25l[?2004l[>4;m[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hvvi cli.rs[?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"cli.rs" 7L, 132B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Huse assert_emd::Command;[2;1H[K[3;1H#[test][3;8H[K[4;1Hfn runs() {
+    let mut cmd = Command::cargo_bin("hello").unwrap();
+    cmd.assert().success();
+}
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+[1;1H[muse assert_[?25lc[?25h[?25l[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"cli.rs" 7L, 132B written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hvi cli.rs[9Dcargo test[?2004l
+[0m[0m[1m[32m   Compiling[0m hello v0.1.0 (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello)
+[0m[0m[1m[36m    Building[0m [========================>  ] 25/26: cli(test)                   [K[0m[0m[1m[32m    Finished[0m test [unoptimized + debuginfo] target(s) in 0.45s
+[0m[0m[1m[32m     Running[0m unittests (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target/debug/deps/hello-901a61dd14f8d664)
+
+running 0 tests
+
+test result: [32mok(B[m. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[0m[0m[1m[32m     Running[0m tests/cli.rs (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target/debug/deps/cli-27bfdedcb9cc068a)
+
+running 1 test
+test runs ... [32mok(B[m
+
+test result: [32mok(B[m. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+[0m[0m[1m[32m     Running[0m tests/cli-simple.rs (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target/debug/deps/cli_simple-0d55177d9ded03e0)
+
+running 1 test
+test works ... [32mok(B[m
+
+test result: [32mok(B[m. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[0m[0m[1m[32m     Running[0m tests/cli-standard_path.rs (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target/debug/deps/cli_standard_path-bb7a360c3f712c6f)
+
+running 1 test
+test runs ... [31mFAILED(B[m
+
+failures:
+
+---- runs stdout ----
+thread 'runs' panicked at 'assertion failed: res.is_ok()', tests/cli-standard_path.rs:7:5
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    runs
+
+test result: [31mFAILED(B[m. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[0m[0m[1m[31merror[0m[1m:[0m test failed, to rerun pass '--test cli-standard_path'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hcargo test[10Dvi cli.rs [?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"cli.rs" 7L, 132B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Huse assert_cmd::Command;[2;1H[K[3;1H#[test][3;8H[K[4;1Hfn runs() {
+    let mut cmd = Command::cargo_bin("hello").unwrap();
+    cmd.assert().success();
+}
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"cli.rs" 7L, 132B written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hvi cli.rs      v  lls -la[?2004l
+total 24
+drwxr-xr-x  5 amal.prasad  staff  160 Nov  8 12:54 .
+drwxr-xr-x  7 amal.prasad  staff  224 Nov  8 12:49 ..
+-rw-r--r--  1 amal.prasad  staff   42 Nov  8 12:36 cli-simple.rs
+-rw-r--r--  1 amal.prasad  staff  145 Nov  8 12:45 cli-standard_path.rs
+-rw-r--r--  1 amal.prasad  staff  132 Nov  8 12:54 cli.rs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hmmv cli
+[Jcli-simple.rs         cli-standard_path.rs  cli.rs[A[0m[27m[24m[31Cmv cli[K-s*       m  ppws d[?2004l
+[J/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hc mmv m  mmv cli-    m  mmkdri  o ir [7m/Users/amal.prasad/rust_cmd_line/truth_or_c[7mo[7mnsequences[27m[K[A[26C[27m/[27mU[27ms[27me[27mr[27ms[27m/[27ma[27mm[27ma[27ml[27m.[27mp[27mr[27ma[27ms[27ma[27md[27m/[27mr[27mu[27ms[27mt[27m_[27mc[27mm[27md[27m_[27ml[27mi[27mn[27me[27m/[27mt[27mr[27mu[27mt[27mh[27m_[27mo[27mr[27m_[27mco[27mn[27ms[27me[27mq[27mu[27me[27mn[27mc[27me[27ms[1C/tw est_scripts       cases[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hm ccp ./(  * [7m/Users/amal.prasad/rust_cmd_line/truth_or_[7mc[7monsequences/test_cases[27m[K[A[15C[27m/[27mU[27ms[27me[27mr[27ms[27m/[27ma[27mm[27ma[27ml[27m.[27mp[27mr[27ma[27ms[27ma[27md[27m/[27mr[27mu[27ms[27mt[27m_[27mc[27mm[27md[27m_[27ml[27mi[27mn[27me[27m/[27mt[27mr[27mu[27mt[27mh[27m_[27mo[27mr[27m_c[27mo[27mn[27ms[27me[27mq[27mu[27me[27mn[27mc[27me[27ms[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ma[27ms[27me[27ms[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hlls [7m/Users/amal.prasad/rust_cmd_line/truth_or_cons[7me[7mquences/test_cases[27m[K[A[15C[27m/[27mU[27ms[27me[27mr[27ms[27m/[27ma[27mm[27ma[27ml[27m.[27mp[27mr[27ma[27ms[27ma[27md[27m/[27mr[27mu[27ms[27mt[27m_[27mc[27mm[27md[27m_[27ml[27mi[27mn[27me[27m/[27mt[27mr[27mu[27mt[27mh[27m_[27mo[27mr[27m_[27mc[27mo[27mn[27mse[27mq[27mu[27me[27mn[27mc[27me[27ms[27m/[27mt[27me[27ms[27mt[27m_[27mc[27ma[27ms[27me[27ms[?2004l
+cli-simple.rs		cli-standard_path.rs	cli.rs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hr mmr cl  m  rrm cli
+[Jcli-simple.rs         cli-standard_path.rs  cli.rs[A[0m[27m[24m[31Crm cli[K-s*[?2004l
+[J[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hlls -la[?2004l
+total 8
+drwxr-xr-x  3 amal.prasad  staff   96 Nov  8 12:56 .
+drwxr-xr-x  7 amal.prasad  staff  224 Nov  8 12:49 ..
+-rw-r--r--  1 amal.prasad  staff  132 Nov  8 12:54 cli.rs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hccargo test[?2004l
+[0m[0m[1m[32m   Compiling[0m hello v0.1.0 (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello)
+[0m[0m[1m[36m    Building[0m [========================>  ] 23/24: cli(test)                   [K[0m[0m[1m[32m    Finished[0m test [unoptimized + debuginfo] target(s) in 0.41s
+[0m[0m[1m[32m     Running[0m unittests (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target/debug/deps/hello-901a61dd14f8d664)
+
+running 0 tests
+
+test result: [32mok(B[m. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[0m[0m[1m[32m     Running[0m tests/cli.rs (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target/debug/deps/cli-27bfdedcb9cc068a)
+
+running 1 test
+test runs ... [32mok(B[m
+
+test result: [32mok(B[m. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hggit s commt      status[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../coding_script[m
+	[31mmodified:   ../Cargo.lock[m
+	[31mmodified:   ../Cargo.toml[m
+	[31mdeleted:    cli-simple.rs[m
+	[31mmodified:   cli.rs[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.gitignore[m
+	[31m../target/debug/.fingerprint/assert_cmd-b7aea2c2d7e90a50/[m
+	[31m../target/debug/.fingerprint/bstr-b9247f70fc1b58cf/[m
+	[31m../target/debug/.fingerprint/difflib-fcc393284a9113cc/[m
+	[31m../target/debug/.fingerprint/doc-comment-0514c8fa6e55a757/[m
+	[31m../target/debug/.fingerprint/doc-comment-3b2105020932365e/[m
+	[31m../target/debug/.fingerprint/doc-comment-cbe9d5b916b1a9e0/[m
+	[31m../target/debug/.fingerprint/either-403ba3a98edf0797/[m
+	[31m../target/debug/.fingerprint/hello-0d55177d9ded03e0/[m
+	[31m../target/debug/.fingerprint/hello-27bfdedcb9cc068a/[m
+	[31m../target/debug/.fingerprint/hello-901a61dd14f8d664/[m
+	[31m../target/debug/.fingerprint/hello-bb7a360c3f712c6f/[m
+	[31m../target/debug/.fingerprint/hello-da168459eedc94cf/[m
+	[31m../target/debug/.fingerprint/itertools-25fd3100ede91153/[m
+	[31m../target/debug/.fingerprint/lazy_static-2745487a1a96fbec/[m
+	[31m../target/debug/.fingerprint/libc-35dcacd0687858f6/[m
+	[31m../target/debug/.fingerprint/libc-6719e0205e62e143/[m
+	[31m../target/debug/.fingerprint/libc-8addb847954c4468/[m
+	[31m../target/debug/.fingerprint/memchr-27700d3349e87386/[m
+	[31m../target/debug/.fingerprint/memchr-8cd5afa21d9bdec5/[m
+	[31m../target/debug/.fingerprint/memchr-c4eb3c8c69f0f452/[m
+	[31m../target/debug/.fingerprint/predicates-c61c25c3ae9f359c/[m
+	[31m../target/debug/.fingerprint/predicates-core-31541fd7043dc98a/[m
+	[31m../target/debug/.fingerprint/predicates-tree-27dc53937efd19bc/[m
+	[31m../target/debug/.fingerprint/regex-automata-1cbbdb2f0942f02b/[m
+	[31m../target/debug/.fingerprint/termtree-64f79349bb4ed697/[m
+	[31m../target/debug/.fingerprint/wait-timeout-c25d9b1912a08d42/[m
+	[31m../target/debug/build/[m
+	[31m../../test_cases/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hf ggit comm    add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hggit commit        g  ggit commt it -a -m "Fx ixing test case to use the pro [Kjject nimna     binary
