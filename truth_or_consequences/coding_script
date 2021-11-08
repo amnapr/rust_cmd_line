@@ -2070,4 +2070,106 @@ Untracked files:
 [1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hddit add coding_script[1m [0m[0m [?2004l
 zsh: command not found: dit
 [1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hdit add coding_script[P[20C [21Dgit add coding_script[20D[?2004l
-[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hggit commit -m "k Addintion    n g additional  [Kb[K[K[A[79C [?2004l[1B[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hgit add coding_script
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hggit commit -m "k Addintion    n g additional  [Kb[K[K[A[79C [?2004l[1B[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hgit add coding_script                 g  ggit status[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   coding_script[m
+	[32mnew file:   hello/src/bin/false.rs[m
+	[32mnew file:   hello/src/bin/true.rs[m
+	[32mnew file:   hello/target/debug/false[m
+	[32mnew file:   hello/target/debug/true[m
+	[32mmodified:   hello/tests/cli.rs[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   coding_script[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../.gitignore[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hgit statusadd coding_script[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hgit add coding_script[17Dstatus           [11Dadd coding_script[21Dd[20C[21Dg[3Cstatus           [11D      commit -n  m "Adding ass  dditin onal  [Kn[Kbbinaries"[?2004l
+[main 26a7fd6] Adding additional binaries
+ 6 files changed, 694 insertions(+), 1 deletion(-)
+ create mode 100644 truth_or_consequences/hello/src/bin/false.rs
+ create mode 100644 truth_or_consequences/hello/src/bin/true.rs
+ create mode 100755 truth_or_consequences/hello/target/debug/false
+ create mode 100755 truth_or_consequences/hello/target/debug/true
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hggit push[?2004l
+Enumerating objects: 24, done.
+Counting objects:   4% (1/24)Counting objects:   8% (2/24)Counting objects:  12% (3/24)Counting objects:  16% (4/24)Counting objects:  20% (5/24)Counting objects:  25% (6/24)Counting objects:  29% (7/24)Counting objects:  33% (8/24)Counting objects:  37% (9/24)Counting objects:  41% (10/24)Counting objects:  45% (11/24)Counting objects:  50% (12/24)Counting objects:  54% (13/24)Counting objects:  58% (14/24)Counting objects:  62% (15/24)Counting objects:  66% (16/24)Counting objects:  70% (17/24)Counting objects:  75% (18/24)Counting objects:  79% (19/24)Counting objects:  83% (20/24)Counting objects:  87% (21/24)Counting objects:  91% (22/24)Counting objects:  95% (23/24)Counting objects: 100% (24/24)Counting objects: 100% (24/24), done.
+Delta compression using up to 8 threads
+Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
+Writing objects:   6% (1/15)Writing objects:  13% (2/15)Writing objects:  20% (3/15)Writing objects:  26% (4/15)Writing objects:  33% (5/15)Writing objects:  40% (6/15)Writing objects:  46% (7/15)Writing objects:  53% (8/15)Writing objects:  60% (9/15)Writing objects:  66% (10/15)Writing objects:  73% (11/15)Writing objects:  86% (13/15)Writing objects:  93% (14/15)Writing objects: 100% (15/15)Writing objects: 100% (15/15), 192.20 KiB | 7.39 MiB/s, done.
+Total 15 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 3 local objects.[K
+To https://github.com/amnapr/rust_cmd_line.git
+   0ed2be0..26a7fd6  main -> main
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hccd hello[1m/[0m[0m/src[1m/[0m[0m/vin   vin   bin[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/src/bin[0m[27m[24m[Jamal.prasad@TILLT07825 bin % [K[?2004hvvi true.rs[1m [0m[0m [?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"true.rs" 3L, 41B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hfn main() {
+    std::process::exit(0);[2;27H[K[3;1H}[3;2H[K[4;1H[94m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+[m    [?25l[2;5H[K[2;4H[?25h[?25l[1;11H[106m{
+}[m
+[94m~                                                                               [2;1H[?25h[?25l[m[1;11H{
+}[1;1H[?25h[?25l[10C[106m{
+}[1;11H[?25h[?25l[m[24;1H[97m[41mE349: No identifier under cursor[1;11H[?25h[?25l[m{ }
+[94m~                                                                               [1;12H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"true.rs" 1L, 14B written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/src/bin[0m[27m[24m[Jamal.prasad@TILLT07825 bin % [K[?2004hvvi dlast     false.rs[?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"false.rs" 3L, 41B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hfn main() {
+    std::process::exit(1);[2;27H[K[3;1H}[3;2H[K[4;1H[94m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+[m    std::process::[?25lxit(1);[2;26H[K[2;19H[?25h[?25lit(1);[2;25H[K[2;19H[?25h[?25lt(1);[2;24H[K[2;19H[?25h[?25l[106m([m1[106m)[m;[2;23H[K[2;19H[?25h[?25l1);[2;22H[K[2;19H[?25h[?25l);[2;21H[K[2;19H[?25h[?25l;[2;20H[K[2;19H[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[2;19H[?25h[?25la;[?25h[?25lb;[?25h[?25lo;[?25h[?25lr;[?25h[?25lt;[?25h[?25l(;[?25h[?25l[106m()[m;[?25h[24;1H[K[2;25H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"false.rs" 3L, 41B written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/src/bin[0m[27m[24m[Jamal.prasad@TILLT07825 bin % [K[?2004hccargo test[?2004l
+[0m[0m[1m[32m   Compiling[0m hello v0.1.0 (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello)
+[0m[0m[1m[36m    Building[0m [======================>    ] 24/28: false(bin), true(bin), fa...[0m[0m[1m[36m    Building[0m [========================>  ] 26/28: true(bin), false(bin)       [K[0m[0m[1m[32m    Finished[0m test [unoptimized + debuginfo] target(s) in 0.36s
+[0m[0m[1m[32m     Running[0m unittests (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target/debug/deps/false-81846f069ef2ac41)
+
+running 0 tests
+
+test result: [32mok(B[m. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[0m[0m[1m[32m     Running[0m unittests (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target/debug/deps/hello-901a61dd14f8d664)
+
+running 0 tests
+
+test result: [32mok(B[m. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[0m[0m[1m[32m     Running[0m unittests (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target/debug/deps/true-379c5e9902d18fec)
+
+running 0 tests
+
+test result: [32mok(B[m. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[0m[0m[1m[32m     Running[0m tests/cli.rs (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target/debug/deps/cli-d131cbc5164d7901)
+
+running 3 tests
+test runs ... [32mok(B[m
+test true_ok ... [32mok(B[m
+test false_not_ok ... [32mok(B[m
+
+test result: [32mok(B[m. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.64s
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/src/bin[0m[27m[24m[Jamal.prasad@TILLT07825 bin % [K[?2004hggit com   status[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../../coding_script[m
+	[31mmodified:   false.rs[m
+	[31mmodified:   true.rs[m
+	[31mmodified:   ../../target/debug/false[m
+	[31mmodified:   ../../target/debug/true[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../../.gitignore[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/src/bin[0m[27m[24m[Jamal.prasad@TILLT07825 bin % [K[?2004hggit commt   
