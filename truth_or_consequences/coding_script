@@ -1,0 +1,754 @@
+Script started on Mon Nov  8 12:06:04 2021
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hccargo new      c  ddate [?2004l
+Mon Nov  8 12:06:12 IST 2021
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hccarn go new hello[?2004l
+[0m[0m[1m[32m     Created[0m binary (application) `hello` package
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hccd hello[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004httree[?2004l
+zsh: command not found: tree
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004htree  t  lls -laR[?2004l
+total 8
+drwxr-xr-x  4 amal.prasad  staff  128 Nov  8 12:06 .
+drwxr-xr-x  4 amal.prasad  staff  128 Nov  8 12:06 ..
+-rw-r--r--  1 amal.prasad  staff  174 Nov  8 12:06 Cargo.toml
+drwxr-xr-x  3 amal.prasad  staff   96 Nov  8 12:06 src
+
+./src:
+total 8
+drwxr-xr-x  3 amal.prasad  staff   96 Nov  8 12:06 .
+drwxr-xr-x  4 amal.prasad  staff  128 Nov  8 12:06 ..
+-rw-r--r--  1 amal.prasad  staff   45 Nov  8 12:06 main.rs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004h##TOML - Ton's   m's Obvious, Mm inimal Language[?2004l
+[0m[27m[24m[Jquote> [K[?2004h\\'[?2004l
+zsh: command not found: #TOML
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004h##src - sorou     Rs ust source code[?2004l
+zsh: command not found: #src
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004h#src - Rust source code directory[?2004l
+zsh: command not found: #src
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004h##man in.rs - dea fault startin poing t for Rust program [Ks[?2004l
+zsh: command not found: #main.rs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hccat srv c/main.rs[1m [0m[0m [?2004l
+fn main() {
+    println!("Hello, world!");
+}
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hccargo run[?2004l
+[0m[0m[1m[32m   Compiling[0m hello v0.1.0 (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello)
+[0m[0m[1m[36m    Building[0m [                             ] 0/1: hello(bin)                  [K[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.67s
+[0m[0m[1m[32m     Running[0m `target/debug/hello`
+Hello, world!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hcargo run -q[?2004l
+Hello, world!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hcargo run -q -quiets [?2004l
+Hello, world!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hcargo run --quietq       [?2004l
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.00s
+[0m[0m[1m[32m     Running[0m `target/debug/hello`
+Hello, world!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hccargo help run[?2004l
+[?1049h[?1h=CARGO-RUN(1)                                                      CARGO-RUN(1)
+
+[1mNAME[0m
+       cargo-run - Run the current package
+
+[1mSYNOPSIS[0m
+       [1mcargo[0m [1mrun[0m [[4moptions[24m] [[1m--[0m [4margs[24m]
+
+[1mDESCRIPTION[0m
+       Run a binary or example of the local package.
+
+       All the arguments following the two dashes ([1m--[0m) are passed to the
+       binary to run. If you're passing arguments to both Cargo and the
+       binary, the ones after [1m--[0m go to the binary, the ones before go to
+       Cargo.
+
+[1mOPTIONS[0m
+   [1mPackage[0m [1mSelection[0m
+       By default, the package in the current working directory is selected.
+       The [1m-p[0m flag can be used to choose a different package in a workspace.
+
+       [1m-p[0m [4mspec[24m, [1m--package[0m [4mspec[24m
+           The package to run. See [1mcargo-pkgid[0m(1) for the SPEC format.
+:[K[K
+   [1mTarget[0m [1mSelection[0m
+       When no target selection options are given, [1mcargo[0m [1mrun[0m will run the
+       binary target. If there are multiple binary targets, you must pass a
+       target flag to choose one. Or, the [1mdefault-run[0m field may be specified
+       in the [1m[package][0m section of [1mCargo.toml[0m to choose the name of the binary
+       to run by default.
+
+       [1m--bin[0m [4mname[24m
+           Run the specified binary.
+
+       [1m--example[0m [4mname[24m
+           Run the specified example.
+
+   [1mFeature[0m [1mSelection[0m
+       The feature flags allow you to control which features are enabled. When
+       no feature options are given, the [1mdefault[0m feature is activated for
+       every selected package.
+
+       See [4mthe[24m [4mfeatures[24m [4mdocumentation[24m
+       <https://doc.rust-lang.org/cargo/reference/features.html#command-line-fea ture-options>
+       for more details.
+:[K[K
+       [1m--features[0m [4mfeatures[24m
+           Space or comma separated list of features to activate. Features of
+           workspace members may be enabled with [1mpackage-name/feature-name[0m
+           syntax. This flag may be specified multiple times, which enables
+           all specified features.
+
+       [1m--all-features[0m
+           Activate all available features of all selected packages.
+
+       [1m--no-default-features[0m
+           Do not activate the [1mdefault[0m feature of the selected packages.
+
+   [1mCompilation[0m [1mOptions[0m
+       [1m--target[0m [4mtriple[24m
+           Run for the given architecture. The default is the host
+           architecture. The general format of the triple is
+           [1m<arch><sub>-<vendor>-<sys>-<abi>[0m. Run [1mrustc[0m [1m--print[0m [1mtarget-list[0m for
+           a list of supported targets.
+
+           This may also be specified with the [1mbuild.target[0m [4mconfig[24m [4mvalue[24m
+           <https://doc.rust-lang.org/cargo/reference/config.html>.
+
+:[K[K           Note that specifying this flag makes Cargo run in a different mode
+           where the target artifacts are placed in a separate directory. See
+           the [4mbuild[24m [4mcache[24m
+           <https://doc.rust-lang.org/cargo/guide/build-cache.html>
+           documentation for more details.
+
+       [1m--release[0m
+           Run optimized artifacts with the [1mrelease[0m profile. See the PROFILES
+           section for details on how this affects profile selection.
+
+       [1m--ignore-rust-version[0m
+           Run the target even if the selected Rust compiler is older than the
+           required Rust version as configured in the project's [1mrust-version[0m
+           field.
+
+   [1mOutput[0m [1mOptions[0m
+       [1m--target-dir[0m [4mdirectory[24m
+           Directory for all generated artifacts and intermediate files. May
+           also be specified with the [1mCARGO_TARGET_DIR[0m environment variable,
+           or the [1mbuild.target-dir[0m [4mconfig[24m [4mvalue[24m
+           <https://doc.rust-lang.org/cargo/reference/config.html>. Defaults
+           to [1mtarget[0m in the root of the workspace.
+
+:[K[K   [1mDisplay[0m [1mOptions[0m
+       [1m-v[0m, [1m--verbose[0m
+           Use verbose output. May be specified twice for "very verbose"
+           output which includes extra output such as dependency warnings and
+           build script output. May also be specified with the [1mterm.verbose[0m
+           [4mconfig[24m [4mvalue[24m
+           <https://doc.rust-lang.org/cargo/reference/config.html>.
+
+       [1m-q[0m, [1m--quiet[0m
+           No output printed to stdout.
+
+       [1m--color[0m [4mwhen[24m
+           Control when colored output is used. Valid values:
+
+           o  [1mauto[0m (default): Automatically detect if color support is
+               available on the terminal.
+
+           o  [1malways[0m: Always display colors.
+
+           o  [1mnever[0m: Never display colors.
+
+           May also be specified with the [1mterm.color[0m [4mconfig[24m [4mvalue[24m
+           <https://doc.rust-lang.org/cargo/reference/config.html>.
+:[K[K
+       [1m--message-format[0m [4mfmt[24m
+           The output format for diagnostic messages. Can be specified
+           multiple times and consists of comma-separated values. Valid
+           values:
+
+           o  [1mhuman[0m (default): Display in a human-readable text format.
+               Conflicts with [1mshort[0m and [1mjson[0m.
+
+           o  [1mshort[0m: Emit shorter, human-readable text messages. Conflicts
+               with [1mhuman[0m and [1mjson[0m.
+
+           o  [1mjson[0m: Emit JSON messages to stdout. See [4mthe[24m [4mreference[24m
+               <https://doc.rust-lang.org/cargo/reference/external-tools.html#js on-messages>
+               for more details. Conflicts with [1mhuman[0m and [1mshort[0m.
+
+           o  [1mjson-diagnostic-short[0m: Ensure the [1mrendered[0m field of JSON
+               messages contains the "short" rendering from rustc. Cannot be
+               used with [1mhuman[0m or [1mshort[0m.
+
+           o  [1mjson-diagnostic-rendered-ansi[0m: Ensure the [1mrendered[0m field of JSON
+               messages contains embedded ANSI color codes for respecting
+:[K[K               rustc's default color scheme. Cannot be used with [1mhuman[0m or
+               [1mshort[0m.
+
+           o  [1mjson-render-diagnostics[0m: Instruct Cargo to not include rustc
+               diagnostics in in JSON messages printed, but instead Cargo
+               itself should render the JSON diagnostics coming from rustc.
+               Cargo's own JSON diagnostics and others coming from rustc are
+               still emitted. Cannot be used with [1mhuman[0m or [1mshort[0m.
+
+   [1mManifest[0m [1mOptions[0m
+       [1m--manifest-path[0m [4mpath[24m
+           Path to the [1mCargo.toml[0m file. By default, Cargo searches for the
+           [1mCargo.toml[0m file in the current directory or any parent directory.
+
+       [1m--frozen[0m, [1m--locked[0m
+           Either of these flags requires that the [1mCargo.lock[0m file is
+           up-to-date. If the lock file is missing, or it needs to be updated,
+           Cargo will exit with an error. The [1m--frozen[0m flag also prevents
+           Cargo from attempting to access the network to determine if it is
+           out-of-date.
+
+           These may be used in environments where you want to assert that the
+           [1mCargo.lock[0m file is up-to-date (such as a CI build) or want to avoid
+:[K[K[?1l>[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hcargo help run --release[?2004l
+[?1049h[?1h=CARGO-RUN(1)                                                      CARGO-RUN(1)
+
+[1mNAME[0m
+       cargo-run - Run the current package
+
+[1mSYNOPSIS[0m
+       [1mcargo[0m [1mrun[0m [[4moptions[24m] [[1m--[0m [4margs[24m]
+
+[1mDESCRIPTION[0m
+       Run a binary or example of the local package.
+
+       All the arguments following the two dashes ([1m--[0m) are passed to the
+       binary to run. If you're passing arguments to both Cargo and the
+       binary, the ones after [1m--[0m go to the binary, the ones before go to
+       Cargo.
+
+[1mOPTIONS[0m
+   [1mPackage[0m [1mSelection[0m
+       By default, the package in the current working directory is selected.
+       The [1m-p[0m flag can be used to choose a different package in a workspace.
+
+       [1m-p[0m [4mspec[24m, [1m--package[0m [4mspec[24m
+           The package to run. See [1mcargo-pkgid[0m(1) for the SPEC format.
+:[K[K[?1l>[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hcargo help run --release[9D         [10D[8Drun      --quiet --release[?2004l
+Hello, world!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hlls 0la   l  ffind . -tyop  pe f -name hello [?2004l
+./target/release/hello
+./target/debug/hello
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hfind . -type f -name hello  -exec ls -l {} \;[?2004l
+-rwxr-xr-x  2 amal.prasad  staff  429235 Nov  8 12:10 ./target/release/hello
+-rwxr-xr-x  2 amal.prasad  staff  435219 Nov  8 12:08 ./target/debug/hello
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hccd target[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target[0m[27m[24m[Jamal.prasad@TILLT07825 target % [K[?2004h../debug[1m/[0m[0m/hello[1m [0m[0m [?2004l
+Hello, world!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/target[0m[27m[24m[Jamal.prasad@TILLT07825 target % [K[?2004hccat ca   c  ccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hlls[?2004l
+Cargo.lock	Cargo.toml	src		target
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hccat Cargo.toml[1m [0m[0m [?2004l
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004h' eeco "  e  ##The name of the binary is enxo  coded in Cargo.toml[?2004l
+zsh: command not found: #The
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004h""Rust is      " "Edition is the changes that are nt  ot backwards co [Kmmpatible[?2004l
+[0m[27m[24m[Jdquote> [K[?2004h"[?2004l
+zsh: command not found: Edition is the changes that are not backwards compatible\n
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hmmkdri    m  lls[?2004l
+Cargo.lock	Cargo.toml	src		target
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hmmkdir tests[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hccd tests[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hvvi cli.rs[?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"cli.rs" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h[?25l#[?25h[?25l[[?25h[?25lt[?25h[?25le[?25h[?25ls[?25h[?25lt[?25h[?25ls[?25h[?25l[1;7H[K[1;7H[?25h[?25l#[106m[[mtest[106m][?25h[?25l[m#[test][2;1H[K[2;1H[?25h[?25lf[?25h[?25ln[?25h[?25l [?25h[?25lw[?25h[?25lo[?25h[?25lr[?25h[?25lk[?25h[?25ls[?25h[?25l([?25h[?25l[106m()[?25h[?25l[m() [?25h[?25l{[?25h[?25l[3;1H[K[3;1H[?25h[?25l[8C[?25h[?25la[?25h[?25ls[?25h[?25ls[?25h[?25l[3;11H[K[3;11H[?25h[?25l[3;10H[K[3;10H[?25h[?25l[3;9H[K[3;9H[?25h[?25l[?25h[?25l[94m~                                                                               [2;13H[?25h[?25l[m[2;12H[K[2;12H[?25h[?25l{[?25h[?25l[3;1H[K[3;1H[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25la[?25h[?25ls[?25h[?25ls[?25h[?25le[?25h[?25lr[?25h[?25lt[?25h[?25ls[?25h[?25l[3;11H[K[3;11H[?25h[?25l@[?25h[?25l([?25h[?25lt[?25h[?25lr[?25h[?25lu[?25h[?25le[?25h[?25l[106m([mtrue[106m)[?25h[?25l[m([3;17H[K[3;17H[?25h[24;1H[K[3;16H[?25l[?25h[?25l![?25h!(tru[?25l[24;1H[1m-- INSERT --[3;17H[?25h[?25l[m[106m([mtrue[106m)[?25h[?25l[m(true);[?25h[?25l[4;1H[K[4;1H[?25h[?25l[2;12H[106m{
+
+}[?25h[m[24;1H[K[4;1H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"cli.rs" [New] 4L, 42B written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hlls -la[?2004l
+total 8
+drwxr-xr-x  3 amal.prasad  staff   96 Nov  8 12:20 .
+drwxr-xr-x  7 amal.prasad  staff  224 Nov  8 12:18 ..
+-rw-r--r--  1 amal.prasad  staff   42 Nov  8 12:20 cli.rs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello/tests[0m[27m[24m[Jamal.prasad@TILLT07825 tests % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hlls[?2004l
+Cargo.lock	Cargo.toml	src		target		tests
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hlls -la' [?2004l
+total 16
+drwxr-xr-x  7 amal.prasad  staff  224 Nov  8 12:18 .
+drwxr-xr-x  4 amal.prasad  staff  128 Nov  8 12:06 ..
+-rw-r--r--  1 amal.prasad  staff  149 Nov  8 12:08 Cargo.lock
+-rw-r--r--  1 amal.prasad  staff  174 Nov  8 12:06 Cargo.toml
+drwxr-xr-x  3 amal.prasad  staff   96 Nov  8 12:06 src
+drwxr-xr-x@ 6 amal.prasad  staff  192 Nov  8 12:10 target
+drwxr-xr-x  3 amal.prasad  staff   96 Nov  8 12:20 tests
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hffile Cae ro.  go.. lock[1m [0m[0m [?2004l
+Cargo.lock: ASCII text
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hmmore a Caro go.lock[1m [0m[0m [?2004l
+[?1h=# This file is automatically @generated by Cargo.
+# It is not intended for manual editing.
+version = 3
+
+[[package]]
+name = "hello"
+version = "0.1.0"
+[7mCargo.lock (END)[27m[K[K[K[?1l>[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hccargo test[?2004l
+[0m[0m[1m[32m   Compiling[0m hello v0.1.0 (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello)
+[0m[0m[1m[36m    Building[0m [========>                    ] 1/3: cli(test), hello(bin)       [0m[0m[1m[36m    Building[0m [==================>          ] 2/3: cli(test)                   [K[0m[0m[1m[32m    Finished[0m test [unoptimized + debuginfo] target(s) in 0.40s
+[0m[0m[1m[32m     Running[0m unittests (target/debug/deps/hello-2c7c8212b03f73ba)
+
+running 0 tests
+
+test result: [32mok(B[m. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[0m[0m[1m[32m     Running[0m tests/cli.rs (target/debug/deps/cli-d5118cdef2760584)
+
+running 1 test
+test works ... [32mok(B[m
+
+test result: [32mok(B[m. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hvvi tests[1m/[0m[0m/cl  cli.rs[1m [0m[0m [?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"tests/cli.rs" 4L, 42B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H#[test]
+fn works() {[2;13H[K[3;1H    assert!(true);[3;19H[K[4;1H}
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[m    assert[?25l![106m([mtrue[106m)[?25h[?25l[m(true)[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[3;12H[106m()[m;[3;15H[K[3;13H[?25h[?25lf[106m)[m;[?25h[?25la[106m)[m;[?25h[?25ll[106m)[m;[?25h[?25ls[106m)[m;[?25h[?25le[106m)[m;[?25h[?25l`[106m)[m;[?25h[24;1H[K[3;18H[?25l(false`)[?25h[?25l[106m([mfalse[106m)[m;[3;20H[K[3;18H[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"tests/cli.rs" 4L, 43B written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hvi tests/cli.rs[15Dcargo test     [?2004l
+[0m[0m[1m[32m   Compiling[0m hello v0.1.0 (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello)
+[0m[0m[1m[36m    Building[0m [==================>          ] 2/3: cli(test)                   [K[0m[0m[1m[32m    Finished[0m test [unoptimized + debuginfo] target(s) in 0.35s
+[0m[0m[1m[32m     Running[0m unittests (target/debug/deps/hello-2c7c8212b03f73ba)
+
+running 0 tests
+
+test result: [32mok(B[m. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[0m[0m[1m[32m     Running[0m tests/cli.rs (target/debug/deps/cli-d5118cdef2760584)
+
+running 1 test
+test works ... [31mFAILED(B[m
+
+failures:
+
+---- works stdout ----
+thread 'works' panicked at 'assertion failed: false', tests/cli.rs:3:5
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    works
+
+test result: [31mFAILED(B[m. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[0m[0m[1m[31merror[0m[1m:[0m test failed, to rerun pass '--test cli'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hcargo test[10Dvi tests/cli.rs[15Dcargo test     [10Dmore Cargo.lock[15Dfil[12C[15Dls -la         [9D   cd ..ls -lavi cli.rs[9Dcd tests [8Dmkdir tests[11Dls         [9D"Edition is the changes that are not backwards compatible[K
+"[K[A[A[30Cls[K[1B[K[1B[K[A[A[33Cl  ccargo rn un --test cli[?2004l[1B[1;31merror:[0m Found argument '[33m--test[0m' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    cargo run [OPTIONS] [--] [args]...
+
+For more information try [32m--help[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hcargo run --test cli[14Dtest          [10D[10Dvi tests/cli.rs[15Dcargo test      --test cli[?2004l
+[0m[0m[1m[32m    Finished[0m test [unoptimized + debuginfo] target(s) in 0.02s
+[0m[0m[1m[32m     Running[0m tests/cli.rs (target/debug/deps/cli-d5118cdef2760584)
+
+running 1 test
+test works ... [31mFAILED(B[m
+
+failures:
+
+---- works stdout ----
+thread 'works' panicked at 'assertion failed: false', tests/cli.rs:3:5
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    works
+
+test result: [31mFAILED(B[m. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[0m[0m[1m[31merror[0m[1m:[0m test failed, to rerun pass '--test cli'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hggit status[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hd ggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hffit status[?2004l
+zsh: command not found: fit
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hggit status[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   Cargo.lock[m
+	[32mnew file:   Cargo.toml[m
+	[32mnew file:   src/main.rs[m
+	[32mnew file:   target/.rustc_info.json[m
+	[32mnew file:   target/CACHEDIR.TAG[m
+	[32mnew file:   target/debug/.cargo-lock[m
+	[32mnew file:   target/debug/.fingerprint/hello-2c7c8212b03f73ba/dep-test-bin-hello[m
+	[32mnew file:   target/debug/.fingerprint/hello-2c7c8212b03f73ba/invoked.timestamp[m
+	[32mnew file:   target/debug/.fingerprint/hello-2c7c8212b03f73ba/test-bin-hello[m
+	[32mnew file:   target/debug/.fingerprint/hello-2c7c8212b03f73ba/test-bin-hello.json[m
+	[32mnew file:   target/debug/.fingerprint/hello-c127831f71ffcd44/bin-hello[m
+	[32mnew file:   target/debug/.fingerprint/hello-c127831f71ffcd44/bin-hello.json[m
+	[32mnew file:   target/debug/.fingerprint/hello-c127831f71ffcd44/dep-bin-hello[m
+	[32mnew file:   target/debug/.fingerprint/hello-c127831f71ffcd44/invoked.timestamp[m
+	[32mnew file:   target/debug/.fingerprint/hello-d5118cdef2760584/dep-test-integration-test-cli[m
+	[32mnew file:   target/debug/.fingerprint/hello-d5118cdef2760584/invoked.timestamp[m
+	[32mnew file:   target/debug/.fingerprint/hello-d5118cdef2760584/test-integration-test-cli[m
+	[32mnew file:   target/debug/.fingerprint/hello-d5118cdef2760584/test-integration-test-cli.json[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.163e5xe40ul30mj2.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.1c6fg5rgepx0oxsz.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.1hfrjhn3h3hxheu4.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.1k8mjwa8hrl8mw02.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.1ugq5liy6twiucz4.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.26ysjbgzvywwcies.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.32uv98navpmzt6jc.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.3pl7f490fcvz1mvx.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.46yb7ina1cfwqoqp.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.47yk8ayxc90ydmlj.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.48eh10ey9ez8i907.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.4ovo7a2lqxj7uigq.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.5cdmwha1i23l2x46.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.5cq4pa6pat4l2zhl.rcgu.o[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.d[m
+	[32mnew file:   target/debug/deps/cli-d5118cdef2760584.ppw3to5ew0064rd.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-2c7c8212b03f73ba[m
+	[32mnew file:   target/debug/deps/hello-2c7c8212b03f73ba.10zv7spcg6habqsz.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-2c7c8212b03f73ba.11d16havzahwnms4.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-2c7c8212b03f73ba.12c35s3920ze74mg.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-2c7c8212b03f73ba.19oiecrgv7k3idt1.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-2c7c8212b03f73ba.1nrv8rgoemhuy27e.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-2c7c8212b03f73ba.4qw3ghu82jg9z6e2.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-2c7c8212b03f73ba.5ft4c2k64rifevtw.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-2c7c8212b03f73ba.d[m
+	[32mnew file:   target/debug/deps/hello-2c7c8212b03f73ba.stpjknnst601mu7.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-2c7c8212b03f73ba.tqnvtztvtvobhsa.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44.1ltpgcxd9j5qvbi0.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44.1rr8vj53odj889sw.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44.3mcy8ry265cv4l68.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44.3rflh1fkz83o9p1n.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44.3vexegjquduq1hx6.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44.432bvnk61acfyror.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44.4dvg7yef65oao1hi.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44.54cb62bqujacs417.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44.9cv1th0v5gulvel.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44.cstp7pv6gxnbbke.rcgu.o[m
+	[32mnew file:   target/debug/deps/hello-c127831f71ffcd44.d[m
+	[32mnew file:   target/debug/hello[m
+	[32mnew file:   target/debug/hello.d[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/163e5xe40ul30mj2.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1c6fg5rgepx0oxsz.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1hfrjhn3h3hxheu4.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1k8mjwa8hrl8mw02.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1ugq5liy6twiucz4.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/26ysjbgzvywwcies.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/32uv98navpmzt6jc.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/3pl7f490fcvz1mvx.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/46yb7ina1cfwqoqp.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/47yk8ayxc90ydmlj.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/48eh10ey9ez8i907.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/4ovo7a2lqxj7uigq.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/5cdmwha1i23l2x46.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/5cq4pa6pat4l2zhl.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/dep-graph.bin[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/ppw3to5ew0064rd.o[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/query-cache.bin[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/work-products.bin[m
+	[32mnew file:   target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v.lock[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/10zv7spcg6habqsz.o[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/11d16havzahwnms4.o[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/12c35s3920ze74mg.o[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/19oiecrgv7k3idt1.o[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/1nrv8rgoemhuy27e.o[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/4qw3ghu82jg9z6e2.o[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/5ft4c2k64rifevtw.o[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/dep-graph.bin[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/query-cache.bin[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/stpjknnst601mu7.o[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/tqnvtztvtvobhsa.o[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/work-products.bin[m
+	[32mnew file:   target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn.lock[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/1ltpgcxd9j5qvbi0.o[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/1rr8vj53odj889sw.o[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/3mcy8ry265cv4l68.o[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/3rflh1fkz83o9p1n.o[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/3vexegjquduq1hx6.o[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/432bvnk61acfyror.o[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/4dvg7yef65oao1hi.o[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/54cb62bqujacs417.o[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/9cv1th0v5gulvel.o[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/cstp7pv6gxnbbke.o[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/dep-graph.bin[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/query-cache.bin[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/work-products.bin[m
+	[32mnew file:   target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4.lock[m
+	[32mnew file:   target/release/.cargo-lock[m
+	[32mnew file:   target/release/.fingerprint/hello-3e2aff636ed96533/bin-hello[m
+	[32mnew file:   target/release/.fingerprint/hello-3e2aff636ed96533/bin-hello.json[m
+	[32mnew file:   target/release/.fingerprint/hello-3e2aff636ed96533/dep-bin-hello[m
+	[32mnew file:   target/release/.fingerprint/hello-3e2aff636ed96533/invoked.timestamp[m
+	[32mnew file:   target/release/deps/hello-3e2aff636ed96533[m
+	[32mnew file:   target/release/deps/hello-3e2aff636ed96533.d[m
+	[32mnew file:   target/release/hello[m
+	[32mnew file:   target/release/hello.d[m
+	[32mnew file:   tests/cli.rs[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../coding_script[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hggit fo  commit -m "Upto assertions"[?2004l
+[main f6fe532] Upto assertions
+ 116 files changed, 60 insertions(+)
+ create mode 100644 truth_or_consequences/hello/Cargo.lock
+ create mode 100644 truth_or_consequences/hello/Cargo.toml
+ create mode 100644 truth_or_consequences/hello/src/main.rs
+ create mode 100644 truth_or_consequences/hello/target/.rustc_info.json
+ create mode 100644 truth_or_consequences/hello/target/CACHEDIR.TAG
+ create mode 100644 truth_or_consequences/hello/target/debug/.cargo-lock
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-2c7c8212b03f73ba/dep-test-bin-hello
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-2c7c8212b03f73ba/invoked.timestamp
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-2c7c8212b03f73ba/test-bin-hello
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-2c7c8212b03f73ba/test-bin-hello.json
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-c127831f71ffcd44/bin-hello
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-c127831f71ffcd44/bin-hello.json
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-c127831f71ffcd44/dep-bin-hello
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-c127831f71ffcd44/invoked.timestamp
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-d5118cdef2760584/dep-test-integration-test-cli
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-d5118cdef2760584/invoked.timestamp
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-d5118cdef2760584/test-integration-test-cli
+ create mode 100644 truth_or_consequences/hello/target/debug/.fingerprint/hello-d5118cdef2760584/test-integration-test-cli.json
+ create mode 100755 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.163e5xe40ul30mj2.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.1c6fg5rgepx0oxsz.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.1hfrjhn3h3hxheu4.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.1k8mjwa8hrl8mw02.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.1ugq5liy6twiucz4.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.26ysjbgzvywwcies.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.32uv98navpmzt6jc.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.3pl7f490fcvz1mvx.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.46yb7ina1cfwqoqp.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.47yk8ayxc90ydmlj.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.48eh10ey9ez8i907.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.4ovo7a2lqxj7uigq.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.5cdmwha1i23l2x46.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.5cq4pa6pat4l2zhl.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.d
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/cli-d5118cdef2760584.ppw3to5ew0064rd.rcgu.o
+ create mode 100755 truth_or_consequences/hello/target/debug/deps/hello-2c7c8212b03f73ba
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-2c7c8212b03f73ba.10zv7spcg6habqsz.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-2c7c8212b03f73ba.11d16havzahwnms4.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-2c7c8212b03f73ba.12c35s3920ze74mg.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-2c7c8212b03f73ba.19oiecrgv7k3idt1.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-2c7c8212b03f73ba.1nrv8rgoemhuy27e.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-2c7c8212b03f73ba.4qw3ghu82jg9z6e2.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-2c7c8212b03f73ba.5ft4c2k64rifevtw.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-2c7c8212b03f73ba.d
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-2c7c8212b03f73ba.stpjknnst601mu7.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-2c7c8212b03f73ba.tqnvtztvtvobhsa.rcgu.o
+ create mode 100755 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44.1ltpgcxd9j5qvbi0.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44.1rr8vj53odj889sw.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44.3mcy8ry265cv4l68.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44.3rflh1fkz83o9p1n.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44.3vexegjquduq1hx6.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44.432bvnk61acfyror.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44.4dvg7yef65oao1hi.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44.54cb62bqujacs417.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44.9cv1th0v5gulvel.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44.cstp7pv6gxnbbke.rcgu.o
+ create mode 100644 truth_or_consequences/hello/target/debug/deps/hello-c127831f71ffcd44.d
+ create mode 100755 truth_or_consequences/hello/target/debug/hello
+ create mode 100644 truth_or_consequences/hello/target/debug/hello.d
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/163e5xe40ul30mj2.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1c6fg5rgepx0oxsz.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1hfrjhn3h3hxheu4.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1k8mjwa8hrl8mw02.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1ugq5liy6twiucz4.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/26ysjbgzvywwcies.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/32uv98navpmzt6jc.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/3pl7f490fcvz1mvx.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/46yb7ina1cfwqoqp.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/47yk8ayxc90ydmlj.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/48eh10ey9ez8i907.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/4ovo7a2lqxj7uigq.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/5cdmwha1i23l2x46.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/5cq4pa6pat4l2zhl.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/dep-graph.bin
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/ppw3to5ew0064rd.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/query-cache.bin
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/work-products.bin
+ create mode 100755 truth_or_consequences/hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v.lock
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/10zv7spcg6habqsz.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/11d16havzahwnms4.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/12c35s3920ze74mg.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/19oiecrgv7k3idt1.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/1nrv8rgoemhuy27e.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/4qw3ghu82jg9z6e2.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/5ft4c2k64rifevtw.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/dep-graph.bin
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/query-cache.bin
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/stpjknnst601mu7.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/tqnvtztvtvobhsa.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn-3qth4n54zzz5t/work-products.bin
+ create mode 100755 truth_or_consequences/hello/target/debug/incremental/hello-300x2lsja4ioo/s-g41eubyr2r-1c7nmvn.lock
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/1ltpgcxd9j5qvbi0.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/1rr8vj53odj889sw.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/3mcy8ry265cv4l68.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/3rflh1fkz83o9p1n.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/3vexegjquduq1hx6.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/432bvnk61acfyror.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/4dvg7yef65oao1hi.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/54cb62bqujacs417.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/9cv1th0v5gulvel.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/cstp7pv6gxnbbke.o
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/dep-graph.bin
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/query-cache.bin
+ create mode 100644 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4-33umo52nm5j0z/work-products.bin
+ create mode 100755 truth_or_consequences/hello/target/debug/incremental/hello-35e1x4tz72s3i/s-g41efm0awn-6h8xd4.lock
+ create mode 100644 truth_or_consequences/hello/target/release/.cargo-lock
+ create mode 100644 truth_or_consequences/hello/target/release/.fingerprint/hello-3e2aff636ed96533/bin-hello
+ create mode 100644 truth_or_consequences/hello/target/release/.fingerprint/hello-3e2aff636ed96533/bin-hello.json
+ create mode 100644 truth_or_consequences/hello/target/release/.fingerprint/hello-3e2aff636ed96533/dep-bin-hello
+ create mode 100644 truth_or_consequences/hello/target/release/.fingerprint/hello-3e2aff636ed96533/invoked.timestamp
+ create mode 100755 truth_or_consequences/hello/target/release/deps/hello-3e2aff636ed96533
+ create mode 100644 truth_or_consequences/hello/target/release/deps/hello-3e2aff636ed96533.d
+ create mode 100755 truth_or_consequences/hello/target/release/hello
+ create mode 100644 truth_or_consequences/hello/target/release/hello.d
+ create mode 100644 truth_or_consequences/hello/tests/cli.rs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hggit push[?2004l
+Enumerating objects: 96, done.
+Counting objects:   1% (1/96)Counting objects:   2% (2/96)Counting objects:   3% (3/96)Counting objects:   4% (4/96)Counting objects:   5% (5/96)Counting objects:   6% (6/96)Counting objects:   7% (7/96)Counting objects:   8% (8/96)Counting objects:   9% (9/96)Counting objects:  10% (10/96)Counting objects:  11% (11/96)Counting objects:  12% (12/96)Counting objects:  13% (13/96)Counting objects:  14% (14/96)Counting objects:  15% (15/96)Counting objects:  16% (16/96)Counting objects:  17% (17/96)Counting objects:  18% (18/96)Counting objects:  19% (19/96)Counting objects:  20% (20/96)Counting objects:  21% (21/96)Counting objects:  22% (22/96)Counting objects:  23% (23/96)Counting objects:  25% (24/96)Counting objects:  26% (25/96)Counting objects:  27% (26/96)Counting objects:  28% (27/96)Counting objects:  29% (28/96)Counting objects:  30% (29/96)Counting objects:  31% (30/96)Counting objects:  32% (31/96)Counting objects:  33% (32/96)Counting objects:  34% (33/96)Counting objects:  35% (34/96)Counting objects:  36% (35/96)Counting objects:  37% (36/96)Counting objects:  38% (37/96)Counting objects:  39% (38/96)Counting objects:  40% (39/96)Counting objects:  41% (40/96)Counting objects:  42% (41/96)Counting objects:  43% (42/96)Counting objects:  44% (43/96)Counting objects:  45% (44/96)Counting objects:  46% (45/96)Counting objects:  47% (46/96)Counting objects:  48% (47/96)Counting objects:  50% (48/96)Counting objects:  51% (49/96)Counting objects:  52% (50/96)Counting objects:  53% (51/96)Counting objects:  54% (52/96)Counting objects:  55% (53/96)Counting objects:  56% (54/96)Counting objects:  57% (55/96)Counting objects:  58% (56/96)Counting objects:  59% (57/96)Counting objects:  60% (58/96)Counting objects:  61% (59/96)Counting objects:  62% (60/96)Counting objects:  63% (61/96)Counting objects:  64% (62/96)Counting objects:  65% (63/96)Counting objects:  66% (64/96)Counting objects:  67% (65/96)Counting objects:  68% (66/96)Counting objects:  69% (67/96)Counting objects:  70% (68/96)Counting objects:  71% (69/96)Counting objects:  72% (70/96)Counting objects:  73% (71/96)Counting objects:  75% (72/96)Counting objects:  76% (73/96)Counting objects:  77% (74/96)Counting objects:  78% (75/96)Counting objects:  79% (76/96)Counting objects:  80% (77/96)Counting objects:  81% (78/96)Counting objects:  82% (79/96)Counting objects:  83% (80/96)Counting objects:  84% (81/96)Counting objects:  85% (82/96)Counting objects:  86% (83/96)Counting objects:  87% (84/96)Counting objects:  88% (85/96)Counting objects:  89% (86/96)Counting objects:  90% (87/96)Counting objects:  91% (88/96)Counting objects:  92% (89/96)Counting objects:  93% (90/96)Counting objects:  94% (91/96)Counting objects:  95% (92/96)Counting objects:  96% (93/96)Counting objects:  97% (94/96)Counting objects:  98% (95/96)Counting objects: 100% (96/96)Counting objects: 100% (96/96), done.
+Delta compression using up to 8 threads
+Compressing objects:   1% (1/81)Compressing objects:   2% (2/81)Compressing objects:   3% (3/81)Compressing objects:   4% (4/81)Compressing objects:   6% (5/81)Compressing objects:   7% (6/81)Compressing objects:   8% (7/81)Compressing objects:   9% (8/81)Compressing objects:  11% (9/81)Compressing objects:  12% (10/81)Compressing objects:  13% (11/81)Compressing objects:  14% (12/81)Compressing objects:  16% (13/81)Compressing objects:  17% (14/81)Compressing objects:  18% (15/81)Compressing objects:  19% (16/81)Compressing objects:  20% (17/81)Compressing objects:  22% (18/81)Compressing objects:  23% (19/81)Compressing objects:  24% (20/81)Compressing objects:  25% (21/81)Compressing objects:  27% (22/81)Compressing objects:  28% (23/81)Compressing objects:  29% (24/81)Compressing objects:  30% (25/81)Compressing objects:  32% (26/81)Compressing objects:  33% (27/81)Compressing objects:  34% (28/81)Compressing objects:  35% (29/81)Compressing objects:  37% (30/81)Compressing objects:  38% (31/81)Compressing objects:  39% (32/81)Compressing objects:  40% (33/81)Compressing objects:  41% (34/81)Compressing objects:  43% (35/81)Compressing objects:  44% (36/81)Compressing objects:  45% (37/81)Compressing objects:  46% (38/81)Compressing objects:  48% (39/81)Compressing objects:  49% (40/81)Compressing objects:  50% (41/81)Compressing objects:  51% (42/81)Compressing objects:  53% (43/81)Compressing objects:  54% (44/81)Compressing objects:  55% (45/81)Compressing objects:  56% (46/81)Compressing objects:  58% (47/81)Compressing objects:  59% (48/81)Compressing objects:  60% (49/81)Compressing objects:  61% (50/81)Compressing objects:  62% (51/81)Compressing objects:  64% (52/81)Compressing objects:  65% (53/81)Compressing objects:  66% (54/81)Compressing objects:  67% (55/81)Compressing objects:  69% (56/81)Compressing objects:  70% (57/81)Compressing objects:  71% (58/81)Compressing objects:  72% (59/81)Compressing objects:  74% (60/81)Compressing objects:  75% (61/81)Compressing objects:  76% (62/81)Compressing objects:  77% (63/81)Compressing objects:  79% (64/81)Compressing objects:  80% (65/81)Compressing objects:  81% (66/81)Compressing objects:  82% (67/81)Compressing objects:  83% (68/81)Compressing objects:  85% (69/81)Compressing objects:  86% (70/81)Compressing objects:  87% (71/81)Compressing objects:  88% (72/81)Compressing objects:  90% (73/81)Compressing objects:  91% (74/81)Compressing objects:  92% (75/81)Compressing objects:  93% (76/81)Compressing objects:  95% (77/81)Compressing objects:  96% (78/81)Compressing objects:  97% (79/81)Compressing objects:  98% (80/81)Compressing objects: 100% (81/81)Compressing objects: 100% (81/81), done.
+Writing objects:   1% (1/95)Writing objects:   2% (2/95)Writing objects:   3% (3/95)Writing objects:   4% (4/95)Writing objects:   5% (5/95)Writing objects:   6% (6/95)Writing objects:   7% (7/95)Writing objects:   8% (8/95)Writing objects:   9% (9/95)Writing objects:  10% (10/95)Writing objects:  11% (11/95)Writing objects:  12% (12/95)Writing objects:  13% (13/95)Writing objects:  14% (14/95)Writing objects:  15% (15/95)Writing objects:  16% (16/95)Writing objects:  17% (17/95)Writing objects:  18% (18/95)Writing objects:  20% (19/95)Writing objects:  21% (20/95)Writing objects:  22% (21/95)Writing objects:  23% (22/95)Writing objects:  24% (23/95)Writing objects:  25% (24/95)Writing objects:  26% (25/95)Writing objects:  27% (26/95)Writing objects:  28% (27/95)Writing objects:  29% (28/95)Writing objects:  30% (29/95)Writing objects:  31% (30/95)Writing objects:  32% (31/95)Writing objects:  33% (32/95)Writing objects:  34% (33/95)Writing objects:  35% (34/95)Writing objects:  36% (35/95)Writing objects:  37% (36/95)Writing objects:  38% (37/95)Writing objects:  40% (38/95)Writing objects:  42% (40/95)Writing objects:  43% (41/95)Writing objects:  46% (44/95)Writing objects:  47% (45/95)Writing objects:  49% (47/95)Writing objects:  50% (48/95)Writing objects:  51% (49/95)Writing objects:  52% (50/95)Writing objects:  53% (51/95)Writing objects:  54% (52/95)Writing objects:  55% (53/95)Writing objects:  56% (54/95)Writing objects:  57% (55/95)Writing objects:  60% (57/95)Writing objects:  61% (58/95)Writing objects:  62% (59/95)Writing objects:  63% (60/95)Writing objects:  64% (61/95)Writing objects:  65% (62/95)Writing objects:  66% (63/95)Writing objects:  67% (64/95)Writing objects:  68% (65/95)Writing objects:  69% (66/95)Writing objects:  70% (67/95)Writing objects:  71% (68/95)Writing objects:  72% (69/95)Writing objects:  73% (70/95)Writing objects:  74% (71/95)Writing objects:  75% (72/95), 1.12 MiB | 1.63 MiB/sWriting objects:  76% (73/95), 1.12 MiB | 1.63 MiB/sWriting objects:  77% (74/95), 1.12 MiB | 1.63 MiB/sWriting objects:  78% (75/95), 1.12 MiB | 1.63 MiB/sWriting objects:  80% (76/95), 1.12 MiB | 1.63 MiB/sWriting objects:  81% (77/95), 1.12 MiB | 1.63 MiB/sWriting objects:  82% (78/95), 1.12 MiB | 1.63 MiB/sWriting objects:  83% (79/95), 1.12 MiB | 1.63 MiB/sWriting objects:  84% (80/95), 1.12 MiB | 1.63 MiB/sWriting objects:  85% (81/95), 1.12 MiB | 1.63 MiB/sWriting objects:  86% (82/95), 1.12 MiB | 1.63 MiB/sWriting objects:  87% (83/95), 1.12 MiB | 1.63 MiB/sWriting objects:  88% (84/95), 1.12 MiB | 1.63 MiB/sWriting objects:  89% (85/95), 1.12 MiB | 1.63 MiB/sWriting objects:  90% (86/95), 1.12 MiB | 1.63 MiB/sWriting objects:  91% (87/95), 1.12 MiB | 1.63 MiB/sWriting objects:  92% (88/95), 1.12 MiB | 1.63 MiB/sWriting objects:  93% (89/95), 1.12 MiB | 1.63 MiB/sWriting objects:  94% (90/95), 1.12 MiB | 1.63 MiB/sWriting objects:  95% (91/95), 1.12 MiB | 1.63 MiB/sWriting objects:  96% (92/95), 1.12 MiB | 1.63 MiB/sWriting objects:  97% (93/95), 1.12 MiB | 1.63 MiB/sWriting objects:  98% (94/95), 1.12 MiB | 1.63 MiB/sWriting objects: 100% (95/95), 1.12 MiB | 1.63 MiB/sWriting objects: 100% (95/95), 1.62 MiB | 2.06 MiB/s, done.
+Total 95 (delta 23), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/23)[Kremote: Resolving deltas:   4% (1/23)[Kremote: Resolving deltas:   8% (2/23)[Kremote: Resolving deltas:  13% (3/23)[Kremote: Resolving deltas:  17% (4/23)[Kremote: Resolving deltas:  21% (5/23)[Kremote: Resolving deltas:  26% (6/23)[Kremote: Resolving deltas:  30% (7/23)[Kremote: Resolving deltas:  34% (8/23)[Kremote: Resolving deltas:  39% (9/23)[Kremote: Resolving deltas:  43% (10/23)[Kremote: Resolving deltas:  47% (11/23)[Kremote: Resolving deltas:  52% (12/23)[Kremote: Resolving deltas:  56% (13/23)[Kremote: Resolving deltas:  60% (14/23)[Kremote: Resolving deltas:  65% (15/23)[Kremote: Resolving deltas:  69% (16/23)[Kremote: Resolving deltas:  73% (17/23)[Kremote: Resolving deltas:  78% (18/23)[Kremote: Resolving deltas:  82% (19/23)[Kremote: Resolving deltas:  86% (20/23)[Kremote: Resolving deltas:  91% (21/23)[Kremote: Resolving deltas:  95% (22/23)[Kremote: Resolving deltas: 100% (23/23)[Kremote: Resolving deltas: 100% (23/23), done.[K
+To https://github.com/amnapr/rust_cmd_line.git
+   876e86a..f6fe532  main -> main
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hvvi tests[1m/[0m[0m/cli.rs[1m [0m[0m [?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"tests/cli.rs" 4L, 43B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H#[test]
+fn works() {[2;13H[K[3;1H    assert!(false);[3;20H[K[4;1H}
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[m    assert[?25l![106m([mfalse[106m)[3;12H[?25h[?25l[m(false)[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[3;12H[106m()[m;[3;15H[K[3;13H[?25h[?25lt[106m)[m;[?25h[?25lr[106m)[m;[?25h[?25lu[106m)[m;[?25h[?25le[106m)[m;[?25h[24;1H[K[3;16H[?25l(true)[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"tests/cli.rs" 4L, 42B written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hvi tests/cli.rs[15Dgit push       commit -m "Upto assertions"[27Dstatus                     [21D[10Df[9C[10Dg[3Cadd . status[10Dcargo test --test cli[?2004l
+[0m[0m[1m[32m   Compiling[0m hello v0.1.0 (/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello)
+[0m[0m[1m[36m    Building[0m [=============>               ] 1/2: cli(test)                   [K[0m[0m[1m[32m    Finished[0m test [unoptimized + debuginfo] target(s) in 0.32s
+[0m[0m[1m[32m     Running[0m tests/cli.rs (target/debug/deps/cli-d5118cdef2760584)
+
+running 1 test
+test works ... [32mok(B[m
+
+test result: [32mok(B[m. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hggit status[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   target/debug/deps/cli-d5118cdef2760584[m
+	[31mmodified:   target/debug/deps/cli-d5118cdef2760584.1hfrjhn3h3hxheu4.rcgu.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/163e5xe40ul30mj2.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1c6fg5rgepx0oxsz.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1hfrjhn3h3hxheu4.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1k8mjwa8hrl8mw02.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1ugq5liy6twiucz4.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/26ysjbgzvywwcies.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/32uv98navpmzt6jc.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/3pl7f490fcvz1mvx.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/46yb7ina1cfwqoqp.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/47yk8ayxc90ydmlj.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/48eh10ey9ez8i907.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/4ovo7a2lqxj7uigq.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/5cdmwha1i23l2x46.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/5cq4pa6pat4l2zhl.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/dep-graph.bin[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/ppw3to5ew0064rd.o[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/query-cache.bin[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/work-products.bin[m
+	[31mdeleted:    target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v.lock[m
+	[31mmodified:   tests/cli.rs[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../coding_script[m
+	[31mtarget/debug/incremental/cli-12ngvfydyzj9z/s-g41f7k0s5a-1kf5nwt-210s7tarkqbt2/[m
+	[31mtarget/debug/incremental/cli-12ngvfydyzj9z/s-g41f7k0s5a-1kf5nwt.lock[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hlls[?2004l
+Cargo.lock	Cargo.toml	src		target		tests
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences/hello[0m[27m[24m[Jamal.prasad@TILLT07825 hello % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hvvi .giti     v  ccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line[0m[27m[24m[Jamal.prasad@TILLT07825 rust_cmd_line % [K[?2004hlls[?2004l
+README.md		truth_or_consequences
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line[0m[27m[24m[Jamal.prasad@TILLT07825 rust_cmd_line % [K[?2004hi lls -la[?2004l
+total 8
+drwxr-xr-x   5 amal.prasad  staff   160 Nov  8 12:05 .
+drwxr-xr-x+ 42 amal.prasad  staff  1344 Nov  8 12:36 ..
+drwxr-xr-x  13 amal.prasad  staff   416 Nov  8 12:37 .git
+-rw-r--r--   1 amal.prasad  staff    88 Nov  8 08:53 README.md
+drwxr-xr-x   4 amal.prasad  staff   128 Nov  8 12:06 truth_or_consequences
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line[0m[27m[24m[Jamal.prasad@TILLT07825 rust_cmd_line % [K[?2004hccdc  vvi .gitignot re[?2004l
+[?1049h[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H".gitignore" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;14H[K[1;1H[?25h[?25ltruth_or_consequences/hello/target/debug/incremental[?25h[24;1H[K[1;52H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m".gitignore" [New] 1L, 53B written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line[0m[27m[24m[Jamal.prasad@TILLT07825 rust_cmd_line % [K[?2004hccd tuth    truth_or_consequences[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hlls[?2004l
+coding_script	hello
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hggit statu[?2004l
+git: 'statu' is not a git command. See 'git --help'.
+
+The most similar commands are
+	status
+	stage
+	stash
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hs[?2004l
+zsh: command not found: s
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hsgit status[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   hello/target/debug/deps/cli-d5118cdef2760584[m
+	[31mmodified:   hello/target/debug/deps/cli-d5118cdef2760584.1hfrjhn3h3hxheu4.rcgu.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/163e5xe40ul30mj2.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1c6fg5rgepx0oxsz.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1hfrjhn3h3hxheu4.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1k8mjwa8hrl8mw02.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/1ugq5liy6twiucz4.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/26ysjbgzvywwcies.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/32uv98navpmzt6jc.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/3pl7f490fcvz1mvx.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/46yb7ina1cfwqoqp.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/47yk8ayxc90ydmlj.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/48eh10ey9ez8i907.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/4ovo7a2lqxj7uigq.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/5cdmwha1i23l2x46.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/5cq4pa6pat4l2zhl.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/dep-graph.bin[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/ppw3to5ew0064rd.o[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/query-cache.bin[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v-sekiwe5ebq7a/work-products.bin[m
+	[31mdeleted:    hello/target/debug/incremental/cli-12ngvfydyzj9z/s-g41ev4yup1-1hchv6v.lock[m
+	[31mmodified:   hello/tests/cli.rs[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../.gitignore[m
+	[31mcoding_script[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://TILLT07825/Users/amal.prasad/rust_cmd_line/truth_or_consequences[0m[27m[24m[Jamal.prasad@TILLT07825 truth_or_consequences % [K[?2004hggit 
